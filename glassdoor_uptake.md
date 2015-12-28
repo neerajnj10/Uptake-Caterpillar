@@ -1,5 +1,8 @@
 
 
+
+
+
 ```python
 import sys
 import requests
@@ -493,11 +496,10 @@ from pymongo import MongoClient
 
 client = MongoClient("mongodb://localhost:27026/")
 
-# spainsoccer is our databse we have created
+#uptake is database
 db = client['uptake']
 
-# liga_data is the collection we have created. Collections are documents inside the databases that stores the actual data. A single 
-#database can have several collections.
+#uptake_glassdoor is the collection we have created. Collections are documents inside the databases that stores the actual data. A #single database can have several collections.
 
 collections = db['uptake_glassdoor']
 
